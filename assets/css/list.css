@@ -91,6 +91,7 @@ ul.horizontal-list li a {
 @media screen and (max-width: 600px) {
 	.theme-row {
 		flex-wrap: wrap;
+		row-gap: 0.4em;
 	}
 	.theme-row-icon {
 		flex-shrink: 0;
@@ -100,8 +101,7 @@ ul.horizontal-list li a {
 		min-width: 0;
 	}
 	.theme-row-pubs {
-		width: 100%;
-		margin-top: 0.5em;
+		flex: 0 0 100%;
 		padding-left: calc(72px + 1.2em);
 	}
 }

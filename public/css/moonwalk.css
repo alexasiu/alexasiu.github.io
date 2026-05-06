@@ -309,3 +309,10 @@ p code, li code {
 	color: #b8860b;
 	margin-top: 0.15em;
 }
+
+@media screen and (max-width: 720px) {
+	.site-nav-inner {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
