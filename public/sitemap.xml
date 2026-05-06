@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:57920/blog/code/</loc>
+    <loc>http://localhost:58340/blog/code/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/blog/language-tests/</loc>
+    <loc>http://localhost:58340/blog/language-tests/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/tags/moonwalk/</loc>
+    <loc>http://localhost:58340/tags/moonwalk/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/tags/overview/</loc>
+    <loc>http://localhost:58340/tags/overview/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/blog/overview-post/</loc>
+    <loc>http://localhost:58340/blog/overview-post/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/blog/example-with-heading-and-toc/</loc>
+    <loc>http://localhost:58340/blog/example-with-heading-and-toc/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/tags/</loc>
+    <loc>http://localhost:58340/tags/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/blog/very-very-very-long-title-and-very-very-very-short-content/</loc>
+    <loc>http://localhost:58340/blog/very-very-very-long-title-and-very-very-very-short-content/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/about/</loc>
+    <loc>http://localhost:58340/about/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/blog/</loc>
+    <loc>http://localhost:58340/blog/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/</loc>
+    <loc>http://localhost:58340/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:57920/categories/</loc>
+    <loc>http://localhost:58340/categories/</loc>
   </url><url>
-    <loc>http://localhost:57920/publications/</loc>
+    <loc>http://localhost:58340/publications/</loc>
   </url>
 </urlset>

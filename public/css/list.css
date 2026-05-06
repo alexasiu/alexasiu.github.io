@@ -92,9 +92,17 @@ ul.horizontal-list li a {
 	.theme-row {
 		flex-wrap: wrap;
 	}
+	.theme-row-icon {
+		flex-shrink: 0;
+	}
+	.theme-row-left {
+		flex: 1;
+		min-width: 0;
+	}
 	.theme-row-pubs {
 		width: 100%;
 		margin-top: 0.5em;
+		padding-left: calc(72px + 1.2em);
 	}
 }
 

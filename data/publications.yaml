@@ -1,6 +1,19 @@
 - category: conference
   label: Conference Papers
   entries:
+  - title: 'Interview-Informed Generative Agents for Product Discovery: A Validation
+      Study'
+    authors: Zichao Wang, Alexa Siu
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+    year: 2026
+    url: https://dl.acm.org/doi/10.1145/3772318.3791918
+    award: Best Paper Honorable Mention
+  - title: 'From Conversation to Human-AI Common Ground: Extracting Cognitive Workflows
+      for Reuse in Sense-making Tasks'
+    authors: Xinyue Chen, Varun Manjunatha, Xu Wang, Alexa Siu
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+    year: 2026
+    url: https://dl.acm.org/doi/10.1145/3772318.3791669
   - title: Science and Technology for Augmenting Reading (STAR)
     authors: Tal August, Andrew Head, Alexa Siu, Elena L Glassman, Jonathan K Kummerfeld,
       Joseph Chee Chang, Lucy Lu Wang, Marti A Hearst
@@ -15,19 +28,6 @@
       for Computational Linguistics (Volume 1: Long Papers)'
     year: 2026
     url: https://aclanthology.org/2026.eacl-long.200/
-  - title: 'Interview-Informed Generative Agents for Product Discovery: A Validation
-      Study'
-    authors: Zichao Wang, Alexa Siu
-    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
-    year: 2026
-    url: https://dl.acm.org/doi/10.1145/3772318.3791918
-    award: Best Paper Honorable Mention
-  - title: 'From Conversation to Human-AI Common Ground: Extracting Cognitive Workflows
-      for Reuse in Sense-making Tasks'
-    authors: Xinyue Chen, Varun Manjunatha, Xu Wang, Alexa Siu
-    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
-    year: 2026
-    url: https://dl.acm.org/doi/10.1145/3772318.3791669
   - title: 'Augmenting Expert Cognition in the Age of Generative AI: Insights from
       Document-Centric Knowledge Work'
     authors: Alexa Siu, Raymond Fok
