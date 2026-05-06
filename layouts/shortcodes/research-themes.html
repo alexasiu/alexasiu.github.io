@@ -1,0 +1,22 @@
+<div class="theme-rows">
+	{{ range .Site.Data.research_themes }}
+	<div class="theme-row">
+		<div class="theme-row-icon">
+			{{ if .icon }}
+			<img src="{{ .icon }}" alt="{{ .title }} icon">
+			{{ end }}
+		</div>
+		<div class="theme-row-left">
+			<span class="theme-row-title">{{ .title }}</span>
+			<p class="theme-row-desc">{{ .description }}</p>
+		</div>
+		<ul class="theme-row-pubs">
+			{{ range .publications }}
+			<li>
+				<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	{{ end }}
+</div>

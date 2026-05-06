@@ -1,0 +1,12 @@
+<nav class="site-nav">
+	<div class="site-nav-inner">
+		<a class="site-nav-brand" href="{{ site.BaseURL }}">{{ site.Title }}</a>
+		{{ with site.Menus.main }}
+		<ul class="site-nav-links">
+			{{ range . }}
+			<li><a href="{{ .URL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+		{{ end }}
+	</div>
+</nav>

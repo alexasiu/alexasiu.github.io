@@ -1,0 +1,456 @@
+- category: conference
+  label: Conference Papers
+  entries:
+  - title: Science and Technology for Augmenting Reading (STAR)
+    authors: Tal August, Andrew Head, Alexa Siu, Elena L Glassman, Jonathan K Kummerfeld,
+      Joseph Chee Chang, Lucy Lu Wang, Marti A Hearst
+    venue: Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human
+      Factors in Computing Systems
+    year: 2026
+    url: https://chi-star-workshop.github.io
+  - title: A Survey on LLM-based Conversational User Simulation
+    authors: Bo Ni, Yu Wang, Leyao Wang, Branislav Kveton, Franck Dernoncourt, Yu
+      Xia, Hongjie Chen, Reuben Luera, Samyadeep Basu, Subhojyoti Mukherjee, others
+    venue: 'Proceedings of the 19th Conference of the European Chapter of the Association
+      for Computational Linguistics (Volume 1: Long Papers)'
+    year: 2026
+    url: https://aclanthology.org/2026.eacl-long.200/
+  - title: 'Interview-Informed Generative Agents for Product Discovery: A Validation
+      Study'
+    authors: Zichao Wang, Alexa Siu
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+    year: 2026
+    url: https://dl.acm.org/doi/10.1145/3772318.3791918
+    award: Best Paper Honorable Mention
+  - title: 'From Conversation to Human-AI Common Ground: Extracting Cognitive Workflows
+      for Reuse in Sense-making Tasks'
+    authors: Xinyue Chen, Varun Manjunatha, Xu Wang, Alexa Siu
+    venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
+    year: 2026
+    url: https://dl.acm.org/doi/10.1145/3772318.3791669
+  - title: 'Augmenting Expert Cognition in the Age of Generative AI: Insights from
+      Document-Centric Knowledge Work'
+    authors: Alexa Siu, Raymond Fok
+    venue: 'Tools for Thought CHI 2026 Workshop'
+    year: 2025
+    url: https://arxiv.org/abs/2503.24334
+  - title: 'MoDS: Moderating a mixture of document speakers to summarize debatable
+      queries in document collections'
+    authors: Nishant Balepur, Alexa Siu, Nedim Lipka, Franck Dernoncourt, Tong Sun,
+      Jordan Lee Boyd-Graber, Puneet Mathur
+    venue: 'Proceedings of the 2025 Conference of the Nations of the Americas Chapter
+      of the Association for Computational Linguistics: Human Language Technologies
+      (Volume 1: Long Papers)'
+    year: 2025
+    url: https://aclanthology.org/2025.naacl-long.20/
+  - title: 'Standardizing the Measurement of Text Diversity: A Tool and Comparative
+      Analysis'
+    authors: Chantal Shaib, Venkata S Govindarajan, Joe Barrow, Jiuding Sun, Alexa
+      Siu, Byron C Wallace, Ani Nenkova
+    venue: 'Proceedings of The 14th International Joint Conference on Natural Language
+      Processing and The 4th Conference of the Asia-Pacific Chapter of the Association
+      for Computational Linguistics: System Demonstrations'
+    year: 2025
+    url: https://aclanthology.org/2025.ijcnlp-demo.5/
+  - title: 'Toward living narrative reviews: An empirical study of the processes and
+      challenges in updating survey articles in computing research'
+    authors: Raymond Fok, Alexa Siu, Daniel S Weld
+    venue: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+    year: 2025
+    url: https://dl.acm.org/doi/10.1145/3706598.3714047
+  - title: 'Imprinto: Enhancing Infrared Inkjet Watermarking for Human and Machine
+      Perception'
+    authors: Martin Feick, Xuxin Tang, Raul Garcia-Martin, Alexandru Luchianov, Roderick
+      Wei Xiao Huang, Chang Xiao, Alexa Siu, Mustafa Doga Dogan
+    venue: Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems
+    year: 2025
+    url: https://dl.acm.org/doi/10.1145/3706598.3713286
+  - title: 'Docvoyager: anticipating user''s information needs and guiding document
+      reading through question answering'
+    authors: Yoonjoo Lee, Nedim Lipka, Zichao Wang, Ryan Rossi, Puneet Mathur, Tong
+      Sun, Alexa Siu
+    venue: Proceedings of the Extended Abstracts of the CHI Conference on Human Factors
+      in Computing Systems
+    year: 2025
+    url: https://dl.acm.org/doi/10.1145/3706599.3719846
+  - title: 'Personalizing Data Delivery: Investigating User Characteristics and Enhancing
+      LLM Predictions'
+    authors: Reuben Luera, Ryan Rossi, Franck Dernoncourt, Alexa Siu, Sungchul Kim,
+      Tong Yu, Ruiyi Zhang, Xiang Chen, Nedim Lipka, Zhehao Zhang, others
+    venue: Companion Proceedings of the ACM on Web Conference 2025
+    year: 2025
+    url: https://dl.acm.org/doi/10.1145/3701716.3715452
+  - title: LLM-as-a-Judge Failures at Automating the Identification of Poor Quality
+      Outputs in Free-Form Texts
+    authors: Zongxia Li, Xiyang Wu, Ishani Mondal, Alexa Siu, Jordan Lee Boyd-Graber,
+      Ani Nenkova
+    venue: Proceedings of The 5th New Frontiers in Summarization Workshop
+    year: 2025
+    url: https://aclanthology.org/2025.newsum-main.1/
+  - title: Knowledge graph prompting for multi-document question answering
+    authors: Yu Wang, Nedim Lipka, Ryan A Rossi, Alexa Siu, Ruiyi Zhang, Tyler Derr
+    venue: Proceedings of the AAAI conference on artificial intelligence
+    year: 2024
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/29889
+  - title: 'Pdftriage: Question answering over long, structured documents'
+    authors: Jon Saad-Falcon, Joe Barrow, Alexa Siu, Ani Nenkova, Seunghyun Yoon,
+      Ryan A Rossi, Franck Dernoncourt
+    venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language
+      Processing: Industry Track'
+    year: 2024
+    url: https://aclanthology.org/2024.emnlp-industry.13/
+  - title: How Much Annotation is Needed to Compare Summarization Models?
+    authors: Chantal Shaib, Joe Barrow, Alexa Siu, Byron C Wallace, Ani Nenkova
+    venue: Proceedings of the Third Workshop on Bridging Human--Computer Interaction
+      and Natural Language Processing
+    year: 2024
+    url: https://aclanthology.org/2024.hcinlp-1.5/
+  - title: 'MoiréWidgets: High-Precision, Passive Tangible Interfaces via Moiré Effect'
+    authors: Daniel Campos Zamora, Mustafa Doga Dogan, Alexa F Siu, Eunyee Koh, Chang
+      Xiao
+    venue: Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+    year: 2024
+    url: https://dl.acm.org/doi/10.1145/3613904.3642734
+  - title: 'Marco: Supporting business document workflows via collection-centric information
+      foraging with large language models'
+    authors: Raymond Fok, Nedim Lipka, Tong Sun, Alexa F Siu
+    venue: Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+    year: 2024
+    url: https://dl.acm.org/doi/10.1145/3613904.3641969
+  - title: 'Thinking Outside the Box: Non-Designer Perspectives and Recommendations
+      for Template-Based Graphic Design Tools'
+    authors: Farnaz Nouraei, Alexa Siu, Ryan Rossi, Nedim Lipka
+    venue: Extended Abstracts of the CHI Conference on Human Factors in Computing
+      Systems
+    year: 2024
+    url: https://dl.acm.org/doi/10.1145/3613905.3650967
+  - title: 'ATLAS: A System for PDF-centric Human Interaction Data Collection'
+    authors: Alexa Siu, Zichao Wang, Joshua Hoeflich, Naman Kapasi, Ani Nenkova, Tong
+      Sun
+    venue: 'Proceedings of the 2024 Conference of the North American Chapter of the
+      Association for Computational Linguistics: Human Language Technologies (Volume
+      3: System Demonstrations)'
+    year: 2024
+    url: https://aclanthology.org/2024.naacl-demo.9/
+  - title: 'DocPilot: Copilot for automating pdf edit workflows in documents'
+    authors: Puneet Mathur, Alexa Siu, Varun Manjunatha, Tong Sun
+    venue: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
+      Linguistics (Volume 3: System Demonstrations)'
+    year: 2024
+    url: https://aclanthology.org/2024.acl-demos.22/
+  - title: Topology-aware retrieval augmentation for text generation
+    authors: Yu Wang, Nedim Lipka, Ruiyi Zhang, Alexa Siu, Yuying Zhao, Bo Ni, Xin
+      Wang, Ryan Rossi, Tyler Derr
+    venue: Proceedings of the 33rd ACM International Conference on Information and
+      Knowledge Management
+    year: 2024
+    url: https://dl.acm.org/doi/10.1145/3627673.3679746
+  - title: 'Matsa: Multi-agent table structure attribution'
+    authors: Puneet Mathur, Alexa Siu, Nedim Lipka, Tong Sun
+    venue: 'Proceedings of the 2024 conference on empirical methods in natural language
+      processing: system demonstrations'
+    year: 2024
+    url: https://aclanthology.org/2024.emnlp-demo.26/
+  - title: 'Experts prefer text but videos help novices: an analysis of the utility
+      of multi-media content'
+    authors: Hayeong Song, Jennifer Healey, Alexa F Siu, Curtis Wigington, John Stasko
+    venue: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing
+      Systems
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3544549.3585900
+  - title: 'StandARone: Infrared-watermarked documents as portable containers of AR
+      interaction and personalization'
+    authors: Mustafa Doga Dogan, Alexa F Siu, Jennifer Healey, Curtis Wigington, Chang
+      Xiao, Tong Sun
+    venue: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing
+      Systems
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3544549.3585905
+  - title: 'Talestream: Supporting story ideation with trope knowledge'
+    authors: Jean-Peı̈c Chou, Alexa Fay Siu, Nedim Lipka, Ryan Rossi, Franck Dernoncourt,
+      Maneesh Agrawala
+    venue: Proceedings of the 36th Annual ACM Symposium on User Interface Software
+      and Technology
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3586183.3606807
+  - title: Computable contracts by extracting obligation logic graphs
+    authors: Sergio Servantez, Nedim Lipka, Alexa Siu, Milan Aggarwal, Balaji Krishnamurthy,
+      Aparna Garimella, Kristian Hammond, Rajiv Jain
+    venue: Proceedings of the Nineteenth International Conference on Artificial Intelligence
+      and Law
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3594536.3595162
+  - title: How Small Businesses Transform PDF Agreements into Action
+    authors: Jianna So, Nedim Lipka, Alexa F Siu, Ryan Rossi, Franck Dernoncourt
+    venue: Companion Publication of the 2023 Conference on Computer Supported Cooperative
+      Work and Social Computing
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3584931.3606972
+  - title: Understanding experiences, attitudes and perspectives towards designing
+      interactive creative tools for teachers of visually impaired students
+    authors: Abena Boadi-Agyemang, Elizabeth Jeanne Carter, Alexa F Siu, Aaron Steinfeld,
+      Melisa Orta Martinez
+    venue: Proceedings of the 25th International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3597638.3614512
+  - title: 'ShapeSonic: sonifying fingertip interactions for non-visual virtual shape
+      perception'
+    authors: Jialin Huang, Alexa Siu, Rana Hanocka, Yotam Gingold
+    venue: SIGGRAPH Asia 2023 Conference Papers
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3610548.3618246
+  - title: Supporting accessible data visualization through audio data narratives
+    authors: Alexa Siu, Gene SH Kim, Sile O'Modhrain, Sean Follmer
+    venue: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+    year: 2022
+    url: https://dl.acm.org/doi/10.1145/3491102.3517678
+  - title: 'Slide-tone and tilt-tone: 1-DOF haptic techniques for conveying shape
+      characteristics of graphs to blind users'
+    authors: Danyang Fan, Alexa Fay Siu, Wing-Sum Adrienne Law, Raymond Ruihong Zhen,
+      Sile O'Modhrain, Sean Follmer
+    venue: Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+    year: 2022
+    url: https://dl.acm.org/doi/10.1145/3491102.3517790
+  - title: COVID-19 highlights the issues facing blind and visually impaired people
+      in accessing data on the web
+    authors: Alexa F Siu, Danyang Fan, Gene SH Kim, Hrishikesh V Rao, Xavier Vazquez,
+      Sile O'Modhrain, Sean Follmer
+    venue: Proceedings of the 18th International Web for All Conference
+    year: 2021
+    url: https://dl.acm.org/doi/10.1145/3430263.3452432
+    award: Best Paper Honorable Mention
+  - title: 'Virtual reality without vision: A haptic and auditory white cane to navigate
+      complex virtual worlds'
+    authors: Alexa F Siu, Mike Sinclair, Robert Kovacs, Eyal Ofek, Christian Holz,
+      Edward Cutrell
+    venue: Proceedings of the 2020 CHI conference on human factors in computing systems
+    year: 2020
+    url: https://dl.acm.org/doi/10.1145/3313831.3376353
+  - title: 'Haptic pivot: On-demand handhelds in vr'
+    authors: Robert Kovacs, Eyal Ofek, Mar Gonzalez Franco, Alexa Fay Siu, Sebastian
+      Marwecki, Christian Holz, Mike Sinclair
+    venue: Proceedings of the 33rd annual ACM symposium on user interface software
+      and technology
+    year: 2020
+    url: https://dl.acm.org/doi/10.1145/3379337.3415854
+  - title: 'PantoGuide: A haptic and audio guidance system to support tactile graphics
+      exploration'
+    authors: Elyse DZ Chase, Alexa Fay Siu, Abena Boadi-Agyemang, Gene SH Kim, Eric
+      J Gonzalez, Sean Follmer
+    venue: Proceedings of the 22nd International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2020
+    url: https://dl.acm.org/doi/10.1145/3373625.3418023
+  - title: When to add human narration to photo-sharing social media
+    authors: Lawrence H Kim, Abena Boadi-Agyemang, Alexa Fay Siu, John Tang
+    venue: Proceedings of the 22nd International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2020
+    url: https://dl.acm.org/doi/10.1145/3373625.3418013
+  - title: Constructive visualization to inform the design and exploration of tactile
+      data representations
+    authors: Danyang Fan, Alexa Fay Siu, Sile O'Modhrain, Sean Follmer
+    venue: Proceedings of the 22nd International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2020
+    url: https://dl.acm.org/doi/10.1145/3373625.3418027
+  - title: Advancing accessible 3D design for the blind and visually-impaired via
+      tactile shape displays
+    authors: Alexa F Siu
+    venue: Adjunct Proceedings of the 32nd Annual ACM Symposium on User Interface
+      Software and Technology
+    year: 2019
+    url: https://dl.acm.org/doi/10.1145/3332167.3356875
+  - title: 'Making nonvisually: Lessons from the field'
+    authors: Cynthia L Bennett, Abigale Stangl, Alexa F Siu, Joshua A Miele
+    venue: Proceedings of the 21st international ACM SIGACCESS conference on computers
+      and accessibility
+    year: 2019
+    url: https://dl.acm.org/doi/abs/10.1145/3308561.3355619
+  - title: 'Tactile code skimmer: A tool to help blind programmers feel the structure
+      of code'
+    authors: Olutayo Falase, Alexa F Siu, Sean Follmer
+    venue: Proceedings of the 21st International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2019
+    url: https://dl.acm.org/doi/10.1145/3308561.3354616
+  - title: 'shapeCAD: An accessible 3D modelling workflow for the blind and visually-impaired
+      via 2.5 D shape displays'
+    authors: Alexa F Siu, Son Kim, Joshua A Miele, Sean Follmer
+    venue: Proceedings of the 21st International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2019
+    url: https://dl.acm.org/doi/10.1145/3308561.3353782
+    award: Best Paper Honorable Mention
+  - title: 'Shapeshift: 2D spatial manipulation and self-actuation of tabletop shape
+      displays for tangible and haptic interaction'
+    authors: Alexa F Siu, Eric J Gonzalez, Shenli Yuan, Jason B Ginsberg, Sean Follmer
+    venue: Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems
+    year: 2018
+    url: https://dl.acm.org/doi/10.1145/3173574.3173865
+  - title: An Accessible CAD Workflow Using Programming of 3D Models and Preview Rendering
+      in A 2.5 D Shape Display
+    authors: Alexa F Siu, Joshua Miele, Sean Follmer
+    venue: Proceedings of the 20th International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2018
+    url: https://dl.acm.org/doi/10.1145/3234695.3240996
+  - title: 'shapeShift: A mobile tabletop shape display for tangible and haptic interaction'
+    authors: Alexa F Siu, Eric J Gonzalez, Shenli Yuan, Jason Ginsberg, Allen Zhao,
+      Sean Follmer
+    venue: Adjunct Proceedings of the 30th Annual ACM Symposium on User Interface
+      Software and Technology
+    year: 2017
+    url: https://dl.acm.org/doi/10.1145/3131785.3131792
+    award: Best Demo Honorable Mention
+- category: journal
+  label: Journal Articles
+  entries:
+  - title: Survey on user interface design and interactions for generative AI applications
+    authors: Reuben Luera, Ryan Rossi, Alexa Siu, Franck Dernoncourt, Tong Yu, Sungchul
+      Kim, Ruiyi Zhang, Xiang Chen, Hanieh Salehy, Nedim Lipka, others
+    venue: Foundations and Trends in Human-Computer Interaction
+    year: 2026
+    url: https://dl.acm.org/doi/abs/10.1561/1100000106
+  - title: FormA11y—research and development of a tool for remediating pdf forms for
+      accessibility
+    authors: Sparsh Paliwal, Joshua Hoeflich, J Bern Jordan, Rajiv Jain, Vlad I Morariu,
+      Alexa Siu, Jonathan Lazar
+    venue: ACM Transactions on Computer-Human Interaction
+    year: 2025
+    url: https://dl.acm.org/doi/10.1145/3702317
+  - title: 'Large Language Models for Conversational User Simulation: A Comprehensive
+      Survey'
+    authors: Bo Ni, Leyao Wang, Yu Wang, Branislav Kveton, Franck Dernoncourt, Yu
+      Xia, Hongjie Chen, Reuben Leura, Samyadeep Basu, Subhojyoti Mukherjee, others
+    venue: ''
+    year: 2025
+    url: https://arxiv.org/abs/2604.24977
+  - title: An Opportunity to Use AI to Support Content Creators in Creating
+    authors: Mary Ann Jawili MJ, Yalpi Shiva Prasad, Alexa Siu, Rick Treitman
+    venue: 'Beyond Tech Fixes: Towards an AI Future Where Disability Justice Thrives'
+    year: 2025
+    url: https://link.springer.com/chapter/10.1007/978-3-031-93022-5_5
+  - title: 'SweeperBot: Making 3D Browsing Accessible Through View Analysis and Visual
+      Question Answering'
+    authors: Chen Chen, Cuong Nguyen, Alexa Siu, Dingzeyu Li, Nadir Weibel
+    venue: International Journal of Human--Computer Interaction
+    year: 2025
+    url: https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2594750
+  - title: Toward an Optimized Human-AI Reviewing Strategy for Contract Inspection
+    authors: Melanie Bancilhon, Alexa Siu, Ryan Rossi, Nedim Lipka
+    venue: ''
+    year: 2024
+    url: https://www.intechopen.com/online-first/1183240
+  - title: 'FormA11y-A tool for remediating PDF forms for accessibility: Designing
+      a PDF Form Remediation Tool'
+    authors: Sparsh Paliwal, Joshua Hoeflich, J Bern Jordan, Rajiv Jain, Vlad I Morariu,
+      Alexa Siu, Jonathan Lazar
+    venue: 'ACM transactions on computer-human interaction: a publication of the Association
+      for Computing Machinery'
+    year: 2024
+    url: https://dl.acm.org/doi/10.1145/3702317
+  - title: 'The accessibility of data visualizations on the web for screen reader
+      users: Practices and experiences during covid-19'
+    authors: Danyang Fan, Alexa Fay Siu, Hrishikesh Rao, Gene Sung-Ho Kim, Xavier
+      Vazquez, Lucy Greco, Sile O'Modhrain, Sean Follmer
+    venue: ACM Transactions on Accessible Computing
+    year: 2023
+    url: https://dl.acm.org/doi/10.1145/3557899
+  - title: 'HoloNeedle: augmented reality guidance system for needle placement investigating
+      the advantages of three-dimensional needle shape reconstruction'
+    authors: Michael A Lin, Alexa F Siu, Jung Hwa Bae, Mark R Cutkosky, Bruce L Daniel
+    venue: IEEE Robotics and Automation Letters
+    year: 2018
+    url: https://ieeexplore.ieee.org/document/8425736/
+  - title: Rendered and characterized closed-loop accuracy of impedance-type haptic
+      displays
+    authors: Nick Colonnese, Alexa F Siu, Caroline M Abbott, Allison M Okamura
+    venue: IEEE Transactions on Haptics
+    year: 2015
+    url: https://ieeexplore.ieee.org/document/7161339/
+  - title: Disposable platform provides visual and color-based point-of-care anemia
+      self-testing
+    authors: Erika A Tyburski, Scott E Gillespie, William A Stoy, Robert G Mannino,
+      Alexander J Weiss, Alexa F Siu, Rayford H Bulloch, Karthik Thota, Anyela Cardenas,
+      Wilena Session, others
+    venue: The Journal of clinical investigation
+    year: 2014
+    url: https://www.jci.org/articles/view/76666
+- category: book_chapter
+  label: Book Chapters
+  entries:
+  - title: An Opportunity to Use AI to Support Content Creators in Creating Born-Accessible
+      Documents
+    authors: Jonathan Lazar, Abhinav Kannan, Garreth W Tigwell, Rajiv Jain, Mary Ann
+      Jawili, Yalpi Shiva Prasad, Alexa Siu, Rick Treitman
+    venue: 'Beyond Tech Fixes: Towards an AI Future Where Disability Justice Thrives'
+    year: 2025
+    url: https://link.springer.com/chapter/10.1007/978-3-031-93022-5_5
+  - title: Remote co-design in the digital age
+    authors: Brandon Biggs, Alexa Fay Siu, Nida Aziz, Tony Stockman
+    venue: 'Handbook of disability: Critical thought and social change in a globalizing
+      world'
+    year: 2024
+    url: https://link.springer.com/chapter/10.1007/978-981-19-6056-7_47
+  - title: Haptic guidance to support design education and collaboration for blind
+      and visually impaired people
+    authors: Alexa F Siu, Elyse DZ Chase, Gene S-H Kim, Abena Boadi-Agyemang, Eric
+      J Gonzalez, Sean Follmer
+    venue: 'Design Thinking Research: Translation, Prototyping, and Measurement'
+    year: 2021
+    url: https://link.springer.com/chapter/10.1007/978-3-030-76324-4_9
+  - title: Investigating tangible collaboration for design towards augmented physical
+      telepresence
+    authors: Alexa F Siu, Shenli Yuan, Hieu Pham, Eric Gonzalez, Lawrence H Kim, Mathieu
+      Le Goc, Sean Follmer
+    venue: 'Design thinking research: making distinctions: collaboration versus cooperation'
+    year: 2017
+    url: https://link.springer.com/chapter/10.1007/978-3-319-60967-6_7
+- category: patent
+  label: Patents
+  entries:
+  - title: Generating and self-correcting workflows for editing digital files using
+      language machine learning models
+    authors: Puneet Mathur, Varun Manjunatha, Tong Sun, Alexa Siu
+    venue: ''
+    year: 2026
+    note: US Patent App. 18/795,882
+  - title: Generating virtual objects from embedded code
+    authors: Alexa Fay Siu, Tong Sun, Mustafa Doga Dogan, Jennifer Anne Healey, Curtis
+      Michael Wigington
+    venue: ''
+    year: 2025
+    note: US Patent 12,430,813
+  - title: Executing an action using extracted information from a document
+    authors: Nedim Lipka, Ryan Rossi, Jianna Audrey Reyes SO, Franck Dernoncourt,
+      Alexa Siu
+    venue: ''
+    year: 2025
+    note: US Patent App. 18/344,203
+  - title: Fine-grained attribution for document question answering
+    authors: Nedim Lipka, Varun Manjunatha, Surabhi BHARGAVA, Sruthi Madapoosi Ravi,
+      Koustava Goswami, Joseph Barrow, Inderjeet NAIR, Christopher Tensmeyer, Balaji
+      Vasan Srinivasan, Ashutosh Mehra, others
+    venue: ''
+    year: 2025
+    note: US Patent App. 18/528,618
+  - title: Responding to a user query using machine learning
+    authors: Jon Saad-Falcon, Joseph D Barrow, Varun Manjunatha, Anusha PRAKASH, Ryan
+      A Rossi, Franck Dernoncourt, Alexa F Siu, Ani Nenkova Nenkova, Seunghyun Yoon
+    venue: ''
+    year: 2025
+    note: US Patent App. 18/667,690
+  - title: Data extraction and analysis from unstructured documents
+    authors: Arpit Narechania, Fan Du, Atanu Sinha, Nedim Lipka, Alexa F Siu, Jane
+      Elizabeth Hoffswell, Eunyee Koh, Vasanthi Holtcamp
+    venue: ''
+    year: 2024
+    note: US Patent App. 18/482,754
+  - title: Spatial document system and method
+    authors: Jennifer Healey, Tong Sun, Nicholas REWKOWSKI, Nedim Lipka, Curtis Wigington,
+      Alexa Siu
+    venue: ''
+    year: 2024
+    note: US Patent App. 18/317,851

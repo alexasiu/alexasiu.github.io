@@ -1,0 +1,8 @@
+{{ $page := .page }}
+{{ $menuID := .menuID }}
+
+{{ with index site.Menus $menuID }}
+	<ul class="horizontal-list">
+		{{ partial "inline/menu.html" (dict "page" $page "menuEntries" .) }}
+	</ul>
+{{ end }}

@@ -1,0 +1,22 @@
+{{ define "main" }}
+	{{ .Content }}
+
+{{ $blog := hugo.Data.config.home.blog }}
+	{{ if eq $blog true }}
+		<h2>Blog</h2>
+
+		<ul>
+			{{ $timeformat := hugo.Data.config.home.date_format }}
+			{{ range where .Site.RegularPages "Type" "posts" }}
+				<li class="post-list-item">
+					{{ .Date | time.Format $timeformat }}»
+					<a href="{{ .Permalink }}">{{ .Title }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	{{ end }}
+
+	<footer>
+		{{ partial "footer.html" . }}
+	</footer>
+{{ end }}

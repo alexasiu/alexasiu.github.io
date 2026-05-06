@@ -1,0 +1,23 @@
+{{ define "main" }}
+	{{ $p := where site.RegularPages "Type" "posts" }}
+
+	<a href="{{ site.BaseURL }}">go back...</a>
+
+	<header>
+		<h1>{{ site.Title }}</h1>
+	</header>
+
+	<ul>
+		{{ $timeformat := hugo.Data.config.blog.date_format | default "2006-01-02" }}
+		{{ range $p }}
+			<li>
+				<span class="home-date">
+					{{ .Date | time.Format $timeformat }}»
+				</span>
+				<a href="{{ .Permalink }}">
+					{{ .Title }}
+				</a>
+			</li>
+		{{- end }}
+	</ul>
+{{ end }}

@@ -1,0 +1,7 @@
+baseURL = 'https://alexasiu.com/'
+languageCode = 'en-us'
+title = 'Alexa Siu'
+[menus]
+	[[menus.main]]
+		name = 'publications'
+		pageRef = '/publications'

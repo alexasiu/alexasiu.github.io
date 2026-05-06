@@ -1,0 +1,10 @@
+{{ $cfg := hugo.Data.config }}
+<div class="dashed"></div>
+<p>You can contact me at <a href="mailto:{{ $cfg.email }}">{{ $cfg.email }}</a>.</p>
+<ul class="horizontal-list">
+	{{ range $cfg.socials }}
+	<li>
+		<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a>
+	</li>
+	{{ end }}
+</ul>

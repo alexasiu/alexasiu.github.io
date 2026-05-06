@@ -1,0 +1,47 @@
+- id: sensemaking
+  title: "AI-Augmented Sensemaking"
+  description: "Studying how knowledge workers reason and make sense of information through human-AI collaboration."
+  icon: "/images/icons/sensemaking.png"
+  publications:
+    - title: "Augmenting Expert Cognition in the Age of Generative AI"
+      url: "https://arxiv.org/abs/2503.24334"
+      venue: "CHI 2026 Workshop"
+    - title: "From Conversation to Human-AI Common Ground"
+      url: "https://dl.acm.org/doi/10.1145/3772318.3791669"
+      venue: "CHI 2026"
+    - title: "Interview-Informed Generative Agents for Product Discovery"
+      url: "https://dl.acm.org/doi/10.1145/3772318.3791918"
+      venue: "CHI 2026"
+
+- id: documents
+  title: "Document Intelligence & Interaction"
+  description: "Building interactive and AI-powered systems that help people navigate, extract, and act on documents and collections."
+  icon: "/images/icons/document_intelligence.png"
+  publications:
+    - title: "Marco: Supporting Business Document Workflows"
+      url: "https://dl.acm.org/doi/10.1145/3613904.3641969"
+      venue: "CHI 2024"
+    - title: "ATLAS: A System for Human Interaction Data Collection"
+      url: "url: https://dl.acm.org/doi/10.1145/3613905.3650967"
+      venue: "ACL 2024"
+    # - title: "Toward Living Narrative Reviews"
+    #   url: "https://dl.acm.org/doi/10.1145/3706598.3714047"
+    #   venue: "CHI 2025"
+    - title: "Question Answering over Long, Structured Documents"
+      url: "https://aclanthology.org/2024.emnlp-industry.13/"
+      venue: "EMNLP 2024"
+
+- id: accessibility
+  title: "Accessible & Multimodal Interaction"
+  description: "Making information accessible and perceivable across modalities, with a focus on inclusive and born-accessible design."
+  icon: "/images/icons/accessibility.png"
+  publications:
+    - title: "An Opportunity for Creating Born-Accessible Documents"
+      url: "https://link.springer.com/chapter/10.1007/978-3-031-93022-5_5"
+      venue: ""
+    - title: "Making nonvisually: Lessons from the field"
+      url: "https://dl.acm.org/doi/abs/10.1145/3308561.3355619"
+      venue: "ASSETS"
+    - title: "Accessible Data Visualization Through Audio Data Narratives"
+      url: "https://dl.acm.org/doi/10.1145/3491102.3517678"
+      venue: "CHI 2022"

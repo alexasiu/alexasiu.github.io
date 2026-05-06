@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+	{{ $timeformat := hugo.Data.config.blog.posts.date_format | default ":date_long" }}
+	{{ $dateHuman := .Date | time.Format $timeformat }}
+
+	<a href="{{ site.BaseURL }}">go back...</a>
+
+  <h1 class="post-title">{{ .Title }}</h1>
+
+	<p class="post-date text-bold">
+		{{ .Page.Param "author" }}
+		/
+  	{{ .Date | time.Format $timeformat }}
+	</p>
+
+	{{ range $i, $e := .Param "tags" }}
+		<span class="tag">{{ $e }}</span>
+	{{ end }}
+
+  {{ .Content }}
+{{ end }}

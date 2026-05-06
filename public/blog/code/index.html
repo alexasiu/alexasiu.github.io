@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" data-theme="dark">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=57539&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="A live preview for the moonwalk Hugo theme.">
+<title>Code | Alexa Siu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
+		<link rel="stylesheet" href="/css/fonts.css">
+		<link rel="stylesheet" href="/css/list.css">
+    <link rel="stylesheet" href="/css/moonwalk.css">
+		<link rel="stylesheet" href="/css/theme.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+	<nav class="site-nav">
+	<div class="site-nav-inner">
+		<a class="site-nav-brand" href="http://localhost:57539/">Alexa Siu</a>
+		
+		<ul class="site-nav-links">
+			
+			<li><a href="/publications/">publications</a></li>
+			
+		</ul>
+		
+	</div>
+</nav>
+
+	
+	<main>
+		<div class="w">
+    	
+
+	
+	
+
+	<a href="http://localhost:57539/">go back...</a>
+
+  <h1 class="post-title">Code</h1>
+
+	<p class="post-date text-bold">
+		ArkhamCookie
+		/
+  	January 1, 2023
+	</p>
+
+	
+
+  <h2 id="python">Python</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> microrequests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mr <span style="color:#f92672">=</span> microrequests<span style="color:#f92672">.</span>init()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># mr is requests&#39; session object and you can use it in similar manner</span>
+</span></span><span style="display:flex;"><span>res <span style="color:#f92672">=</span> mr<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;http://httpbin.org/get&#34;</span>)
+</span></span><span style="display:flex;"><span>print(res<span style="color:#f92672">.</span>text)
+</span></span></code></pre></div><h2 id="ruby">Ruby</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>require <span style="color:#e6db74">&#39;gmail&#39;</span>
+</span></span><span style="display:flex;"><span>require <span style="color:#e6db74">&#39;time&#39;</span>
+</span></span><span style="display:flex;"><span>require <span style="color:#e6db74">&#39;yaml&#39;</span>
+</span></span><span style="display:flex;"><span>require <span style="color:#e6db74">&#39;erb&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">.</span>length <span style="color:#f92672">!=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>  puts <span style="color:#e6db74">&#34;Syntax: </span><span style="color:#e6db74">#{</span>__FILE__<span style="color:#e6db74">}</span><span style="color:#e6db74"> gmail-username gmail-password&#34;</span>
+</span></span><span style="display:flex;"><span>  exit
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>config <span style="color:#f92672">=</span> <span style="color:#66d9ef">YAML</span><span style="color:#f92672">.</span>load_file(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">#{</span><span style="color:#66d9ef">File</span><span style="color:#f92672">.</span>dirname(__FILE__)<span style="color:#e6db74">}</span><span style="color:#e6db74">/config.yaml&#34;</span>)
+</span></span><span style="display:flex;"><span>body <span style="color:#f92672">=</span> <span style="color:#66d9ef">ERB</span><span style="color:#f92672">.</span>new(config<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;body&#39;</span><span style="color:#f92672">]</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gmail <span style="color:#f92672">=</span> <span style="color:#66d9ef">Gmail</span><span style="color:#f92672">.</span>connect(<span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">0</span><span style="color:#f92672">]</span>, <span style="color:#66d9ef">ARGV</span><span style="color:#f92672">[</span><span style="color:#ae81ff">1</span><span style="color:#f92672">]</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># variable &#39;name&#39; is important given it is used in body as well</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> name, email_id <span style="color:#66d9ef">in</span> config<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;to&#39;</span><span style="color:#f92672">]</span> <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>  puts <span style="color:#e6db74">&#34;sending to </span><span style="color:#e6db74">#{</span>email_id<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>  email <span style="color:#f92672">=</span> gmail<span style="color:#f92672">.</span>compose <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    to email_id
+</span></span><span style="display:flex;"><span>    from config<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;from&#39;</span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    subject config<span style="color:#f92672">[</span><span style="color:#e6db74">&#39;subject&#39;</span><span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>    body body<span style="color:#f92672">.</span>result(binding)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  email<span style="color:#f92672">.</span>deliver!
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>gmail<span style="color:#f92672">.</span>logout
+</span></span></code></pre></div><h2 id="javascript">Javascript</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">path</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;path&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> { <span style="color:#a6e22e">merge</span> } <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;webpack-merge&#39;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">common</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;./webpack.common.js&#39;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">module</span>.<span style="color:#a6e22e">exports</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">merge</span>(<span style="color:#a6e22e">common</span>, {
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mode</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;development&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">devtool</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;inline-source-map&#39;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">devServer</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">writeToDisk</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">contentBase</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">path</span>.<span style="color:#a6e22e">join</span>(<span style="color:#a6e22e">__dirname</span>, <span style="color:#e6db74">&#39;dist&#39;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">publicPath</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">path</span>.<span style="color:#a6e22e">join</span>(<span style="color:#a6e22e">__dirname</span>, <span style="color:#e6db74">&#39;dist&#39;</span>),
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">compress</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">port</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">8000</span>,
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><h2 id="elixir">Elixir</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-elixir" data-lang="elixir"><span style="display:flex;"><span><span style="color:#66d9ef">defmodule</span> <span style="color:#a6e22e">MyAppWeb.BearerAuth</span> <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">import</span> <span style="color:#a6e22e">Plug.Conn</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">alias</span> <span style="color:#a6e22e">MyApp.Account</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> init(options) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    options
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> call(conn, _options) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> get_bearer_auth_token(conn) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">nil</span> <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        conn <span style="color:#f92672">|&gt;</span> unauthorized()
+</span></span><span style="display:flex;"><span>      <span style="color:#e6db74">:error</span> <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        conn <span style="color:#f92672">|&gt;</span> unauthorized()
+</span></span><span style="display:flex;"><span>      auth_token <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>        account <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#a6e22e">Account</span><span style="color:#f92672">.</span>get_from_token(auth_token)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> account <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>          assign(conn, <span style="color:#e6db74">:current_account</span>, account)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>          conn <span style="color:#f92672">|&gt;</span> unauthorized()
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">defp</span> get_bearer_auth_token(conn) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    with [<span style="color:#e6db74">&#34;Bearer &#34;</span> <span style="color:#f92672">&lt;&gt;</span> auth_token] <span style="color:#f92672">&lt;-</span> get_req_header(conn, <span style="color:#e6db74">&#34;authorization&#34;</span>) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>      auth_token
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>      _ <span style="color:#f92672">-&gt;</span> <span style="color:#e6db74">:error</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">defp</span> unauthorized(conn) <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    conn
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">|&gt;</span> resp(<span style="color:#ae81ff">401</span>, <span style="color:#e6db74">&#34;Unauthorized&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">|&gt;</span> halt()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><h2 id="css">CSS</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">highlight</span><span style="color:#f92672">,</span> <span style="color:#f92672">pre</span> <span style="color:#f92672">code</span><span style="color:#f92672">,</span> <span style="color:#f92672">blockquote</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#ae81ff">0.5</span><span style="color:#66d9ef">em</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#f92672">blockquote</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>bg<span style="color:#f92672">-</span>secondary);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>border) <span style="color:#66d9ef">solid</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+
+		</div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" data-theme="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+	{{ partial "header.html" . }}
+	{{ if .IsHome }}
+	<div class="site-banner">
+		<img src="/images/banner.PNG" alt="Alexa Siu standing in front of a colorful gradient background.">
+	</div>
+	{{ end }}
+	<main>
+		<div class="w">
+    	{{ block "main" . }}{{ end }}
+		</div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="pub-sticky-sentinel"></div>
+<nav class="pub-nav pub-sticky">
+	{{ range hugo.Data.publications }}
+	<a class="pub-pill" href="#{{ .category }}">{{ .label }}<span class="pub-count">{{ len .entries }}</span></a>
+	{{ end }}
+</nav>
+<script>
+(function() {
+	const sentinel = document.querySelector('.pub-sticky-sentinel');
+	const nav = document.querySelector('.pub-sticky');
+	if (!sentinel || !nav) return;
+	new IntersectionObserver(([e]) => nav.classList.toggle('is-stuck', !e.isIntersecting)).observe(sentinel);
+})();
+</script>
+
+{{ range hugo.Data.publications }}
+<section class="pub-section" id="{{ .category }}">
+	<h2>{{ .label }}</h2>
+	<ul class="pub-list">
+		{{ range .entries }}
+		<li class="pub-item">
+			<p class="pub-title">
+				{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+				{{- .title -}}
+				{{- if .url }}</a>{{ end }}
+			</p>
+			<p class="pub-authors">
+				{{- .authors | replaceRE `Alexa\s+(Fay\s+|F\.?\s+)?Siu` "<strong>$0</strong>" | safeHTML -}}
+			</p>
+			<p class="pub-venue">
+				{{- .venue }}{{ if .year }}, {{ .year }}{{ end -}}
+				{{- with .note }} — {{ . }}{{ end -}}
+			</p>
+			{{- with .award }}
+			<p class="pub-award">&#9733; <strong>{{ . }}</strong></p>
+			{{- end }}
+		</li>
+		{{ end }}
+	</ul>
+</section>
+{{ end }}
+
+<footer>
+	{{ partial "footer.html" . }}
+</footer>
+{{ end }}

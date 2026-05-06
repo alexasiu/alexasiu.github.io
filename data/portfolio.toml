@@ -1,0 +1,70 @@
+[projects]
+	[projects.01]
+		title = "Supporting Accessible Data Visualization Through Audio Data Narratives"
+		authors = "Alexa F Siu, Gene S-H Kim, Sile O'Modhrain, and Sean Follmer"
+		year = "2022"
+		description = "We investigate audio data narratives — combining textual descriptions and sonification — to provide accessible, multimodal representations of live data visualizations on the web."
+		url = "https://www.youtube.com/watch?v=lOFCbUsZi8o"
+
+	[projects.02]
+		title = "Slide-Tone and Tilt-Tone: 1-DOF Haptic Techniques for Conveying Shape Characteristics of Graphs to Blind Users"
+		authors = "Danyang Fan, Alexa F Siu, Wing-Sum Law, Raymond Zhen, Sile O'Modhrain, and Sean Follmer"
+		year = "2022"
+		description = "Two refreshable, 1-DOF audio-haptic interfaces based on haptic cues fundamental to object shape perception, designed to improve interactive access to data visualizations for blind users."
+		url = "https://www.youtube.com/watch?v=3z3oZ7-D8lM"
+
+	[projects.03]
+		title = "COVID-19 Highlights the Issues Facing Blind and Visually Impaired People in Accessing Data on the Web"
+		authors = "Alexa F Siu, Danyang Fan, Gene S-H Kim, Hrishikesh V Rao, Xavier Vazquez, Sile O'Modhrain, and Sean Follmer"
+		year = "2021"
+		description = "A survey (n=127) and contextual inquiry (n=12) examining how the increased prominence of web data during COVID-19 exacerbated the accessibility gap for the Blind and Visually Impaired community."
+		url = ""
+
+	[projects.04]
+		title = "shapeCAD: An Accessible 3D Modelling Workflow for the Blind and Visually-Impaired Via 2.5D Shape Displays"
+		authors = "Alexa F. Siu, Son Kim, Joshua A. Miele, Sean Follmer"
+		year = "2019"
+		description = "A participatory design process towards an accessible 3D modelling workflow for the blind and visually-impaired, using a 2.5D interactive shape display to design, program, and create."
+		url = "https://youtu.be/XK8Zyi42Cnw"
+
+	[projects.05]
+		title = "PantoGuide: A Haptic and Audio Guidance System To Support Tactile Graphics Exploration"
+		authors = "Elyse D. Z. Chase, Alexa F. Siu, Gene S-H Kim, Abena Boadi-Agyemang, Eric J. Gonzalez, and Sean Follmer"
+		year = "2020"
+		description = "A low-cost system providing audio and haptic guidance cues while a user explores a tactile graphic, enabling students to learn remotely or review class content asynchronously."
+		url = "https://www.youtube.com/watch?v=FLLvDoKsja0"
+
+	[projects.06]
+		title = "Constructive Visualization to Inform the Design and Exploration of Tactile Data Representations"
+		authors = "Danyang Fan, Alexa F. Siu, Sile O'Modhrain, Sean Follmer"
+		year = "2020"
+		description = "Using simple and versatile tokens to engage blind and visually impaired non-data experts in the construction and exploration of tactile data representations."
+		url = "https://youtu.be/I5lvQ3tppEw"
+
+	[projects.07]
+		title = "Haptic PIVOT: On-Demand Handhelds in VR"
+		authors = "Robert Kovacs, Eyal Ofek, Mar Gonzalez Franco, Alexa F. Siu, Sebastian Marwecki, Christian Holz, Mike Sinclair"
+		year = "UIST 2020"
+		description = "A wrist-worn haptic device that pivots a haptic handle into and out of the user's hand on demand, rendering the sensations of grasping, catching, or throwing objects anywhere in VR."
+		url = "https://www.youtube.com/watch?v=kj3RdeJUJos"
+
+	[projects.08]
+		title = "Virtual Reality Without Vision: A Haptic and Auditory White Cane to Navigate Complex Virtual Worlds"
+		authors = "Alexa F. Siu, Mike Sinclair, Robert Kovacs, Christian Holz, Eyal Ofek, Edward Cutrell"
+		year = "CHI 2020"
+		description = "Design of an immersive VR haptic and audio experience accessible to people who are blind, with the goal of facilitating orientation and mobility training in unexplored spaces."
+		url = "https://youtu.be/rIuJuRvnOEw"
+
+	[projects.09]
+		title = "Making Nonvisually: Lessons from the Field"
+		authors = "Cynthia L Bennett, Abigale Stangl, Alexa F Siu, and Joshua A Miele"
+		year = "ASSETS 2019"
+		description = "Personal experiences and lessons from workshops introducing Arduino to blind hobbyists, exploring barriers people with disabilities face in accessing the Maker movement."
+		url = ""
+
+	[projects.10]
+		title = "shapeShift: A Mobile Tabletop Shape Display for Tangible and Haptic Interaction"
+		authors = "Alexa F. Siu, Eric J. Gonzalez, Shenli Yuan, Jason B. Ginsberg, Sean Follmer"
+		year = "CHI 2018"
+		description = "An open-source 2.5D shape display platform exploring interactions enabled by 2D spatial manipulation and self-actuation, including encountered-type haptic feedback."
+		url = "https://youtu.be/ktc3931-4aI"
