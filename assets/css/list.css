@@ -84,6 +84,7 @@ ul.horizontal-list li a {
 	font-size: 0.8em;
 	text-decoration: none;
 	font-weight: normal;
+	overflow-wrap: break-word;
 }
 .theme-row-pubs li a:hover {
 	text-decoration: underline;
@@ -102,6 +103,7 @@ ul.horizontal-list li a {
 	}
 	.theme-row-pubs {
 		flex: 0 0 100%;
+		box-sizing: border-box;
 		padding-left: calc(72px + 1.2em);
 	}
 }
