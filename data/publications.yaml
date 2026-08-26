@@ -1,12 +1,21 @@
 - category: conference
   label: Conference Papers
   entries:
+  - title: 'ColorA11Y: Enhancing Creative Design Workflows with Just-in-Time Color
+      Accessibility Recommendations'
+    authors: Alexa Siu, Rajiv Jain, Abhinav Kannan, Jose Echevarria, Mary Ann (MJ)
+      Jawili, Yalpi Shiva Prasad, Rick Treitman, Garreth W. Tigwell, Jonathan Lazar
+    venue: Proceedings of the 28th International ACM SIGACCESS Conference on Computers
+      and Accessibility
+    year: 2026
+    url: https://arxiv.org/abs/2608.23852
+    award: Social Impact Nominee
   - title: 'Interview-Informed Generative Agents for Product Discovery: A Validation
       Study'
     authors: Zichao Wang, Alexa Siu
     venue: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems
     year: 2026
-    url: https://dl.acm.org/doi/10.1145/3772318.3791918
+    url: https://arxiv.org/abs/2603.29890
     award: Best Paper Honorable Mention
   - title: 'From Conversation to Human-AI Common Ground: Extracting Cognitive Workflows
       for Reuse in Sense-making Tasks'
@@ -21,6 +30,13 @@
       Factors in Computing Systems
     year: 2026
     url: https://chi-star-workshop.github.io
+  - title: 'AnalystBench: Benchmarking professional long-form report generation with
+      web-mined multimodal tasks'
+    authors: Chau Minh Pham, Zichao Wang, Puneet Mathur, Alexa Siu, Akriti Jain,
+      Aparna Garimella, Ananya B Sai, Nedim Lipka, Mohit Iyyer, Varun Manjunatha
+    venue: 'Findings of the Association for Computational Linguistics: ACL 2026'
+    year: 2026
+    url: https://aclanthology.org/2026.findings-acl.1197/
   - title: A Survey on LLM-based Conversational User Simulation
     authors: Bo Ni, Yu Wang, Leyao Wang, Branislav Kveton, Franck Dernoncourt, Yu
       Xia, Hongjie Chen, Reuben Luera, Samyadeep Basu, Subhojyoti Mukherjee, others
@@ -307,6 +323,13 @@
 - category: journal
   label: Journal Articles
   entries:
+  - title: 'Born-accessible design: moving from theory to developing a pragmatic
+      methodological framework'
+    authors: Jonathan Lazar, Rachel Wood, Abhinav Kannan, Jinjuan Heidi Feng, Garreth
+      W Tigwell, Mary Ann (MJ) Jawili, Alexa Siu, Rajiv Jain
+    venue: Interacting with Computers
+    year: 2026
+    url: https://academic.oup.com/iwc/advance-article-abstract/doi/10.1093/iwc/iwag012/8704411
   - title: Survey on user interface design and interactions for generative AI applications
     authors: Reuben Luera, Ryan Rossi, Alexa Siu, Franck Dernoncourt, Tong Yu, Sungchul
       Kim, Ruiyi Zhang, Xiang Chen, Hanieh Salehy, Nedim Lipka, others
@@ -324,7 +347,7 @@
       Survey'
     authors: Bo Ni, Leyao Wang, Yu Wang, Branislav Kveton, Franck Dernoncourt, Yu
       Xia, Hongjie Chen, Reuben Leura, Samyadeep Basu, Subhojyoti Mukherjee, others
-    venue: ''
+    venue: arXiv preprint
     year: 2025
     url: https://arxiv.org/abs/2604.24977
   - title: An Opportunity to Use AI to Support Content Creators in Creating
@@ -378,6 +401,15 @@
     venue: The Journal of clinical investigation
     year: 2014
     url: https://www.jci.org/articles/view/76666
+- category: preprint
+  label: Preprints
+  entries:
+  - title: Learning to Reason in LLMs by Expectation Maximization
+    authors: Junghyun Lee, Branislav Kveton, Anup Rao, Subhojyoti Mukherjee, Ryan
+      A Rossi, Sunav Choudhary, Alexa Siu
+    venue: arXiv preprint
+    year: 2025
+    url: https://arxiv.org/abs/2512.20169
 - category: book_chapter
   label: Book Chapters
   entries:
