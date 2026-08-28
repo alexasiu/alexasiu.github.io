@@ -187,8 +187,8 @@
       Systems
     year: 2023
     url: https://dl.acm.org/doi/10.1145/3544549.3585905
-  - title: 'Talestream: Supporting story ideation with trope knowledge'
-    authors: Jean-Peı̈c Chou, Alexa Siu, Nedim Lipka, Ryan Rossi, Franck Dernoncourt,
+  - title: 'TaleStream: Supporting story ideation with trope knowledge'
+    authors: Jean-Peïc Chou, Alexa Siu, Nedim Lipka, Ryan Rossi, Franck Dernoncourt,
       Maneesh Agrawala
     venue: Proceedings of the 36th Annual ACM Symposium on User Interface Software
       and Technology
@@ -342,8 +342,8 @@
     venue: Foundations and Trends in Human-Computer Interaction
     year: 2026
     url: https://dl.acm.org/doi/abs/10.1561/1100000106
-  - title: FormA11y—research and development of a tool for remediating pdf forms for
-      accessibility
+  - title: FormA11y—Research and Development of a Tool for Remediating PDF Forms
+      for Accessibility
     authors: Sparsh Paliwal, Joshua Hoeflich, J Bern Jordan, Rajiv Jain, Vlad I Morariu,
       Alexa Siu, Jonathan Lazar
     venue: ACM Transactions on Computer-Human Interaction
@@ -360,14 +360,6 @@
     venue: 'The New Era of Business Intelligence (IntechOpen)'
     year: 2024
     url: https://www.intechopen.com/online-first/1183240
-  - title: 'FormA11y-A tool for remediating PDF forms for accessibility: Designing
-      a PDF Form Remediation Tool'
-    authors: Sparsh Paliwal, Joshua Hoeflich, J Bern Jordan, Rajiv Jain, Vlad I Morariu,
-      Alexa Siu, Jonathan Lazar
-    venue: 'ACM transactions on computer-human interaction: a publication of the Association
-      for Computing Machinery'
-    year: 2024
-    url: https://dl.acm.org/doi/10.1145/3702317
   - title: 'The accessibility of data visualizations on the web for screen reader
       users: Practices and experiences during covid-19'
     authors: Danyang Fan, Alexa Siu, Hrishikesh Rao, Gene Sung-Ho Kim, Xavier
@@ -452,7 +444,7 @@
     year: 2025
     note: US Patent 12,430,813
   - title: Executing an action using extracted information from a document
-    authors: Nedim Lipka, Ryan Rossi, Jianna Audrey Reyes SO, Franck Dernoncourt,
+    authors: Nedim Lipka, Ryan Rossi, Jianna Audrey Reyes So, Franck Dernoncourt,
       Alexa Siu
     venue: ''
     year: 2025
@@ -466,8 +458,8 @@
     year: 2025
     note: US Patent App. 18/528,618
   - title: Responding to a user query using machine learning
-    authors: Jon Saad-Falcon, Joseph D Barrow, Varun Manjunatha, Anusha PRAKASH, Ryan
-      A Rossi, Franck Dernoncourt, Alexa Siu, Ani Nenkova Nenkova, Seunghyun Yoon
+    authors: Jon Saad-Falcon, Joseph D Barrow, Varun Manjunatha, Anusha Prakash, Ryan
+      A Rossi, Franck Dernoncourt, Alexa Siu, Ani Nenkova, Seunghyun Yoon
     venue: ''
     year: 2025
     note: US Patent App. 18/667,690
@@ -478,7 +470,7 @@
     year: 2024
     note: US Patent App. 18/482,754
   - title: Spatial document system and method
-    authors: Jennifer Healey, Tong Sun, Nicholas REWKOWSKI, Nedim Lipka, Curtis Wigington,
+    authors: Jennifer Healey, Tong Sun, Nicholas Rewkowski, Nedim Lipka, Curtis Wigington,
       Alexa Siu
     venue: ''
     year: 2024
